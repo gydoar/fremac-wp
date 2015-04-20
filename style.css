@@ -1,0 +1,328 @@
+#mainbanner{
+	background: #310505 url(library/img/banner.jpg);
+	
+	background-repeat: no-repeat;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 632px;
+	width: 100%;
+	background-size: 100%;
+	background-size: cover;
+
+}
+#header-color{
+	background-color: rgba(45,13,12,0.8);
+	height: 91px;
+}
+#logo{
+	padding-top: 40px;
+}
+ul#menu-principal{
+	float: right;
+	padding-top: 55px;
+}
+ul#menu-principal li{
+	display: inline-block;
+	font-size:0.7em;
+	
+}
+ul#menu-principal li a{
+	text-decoration: none;
+	color: #ffffff;
+	padding: 0px 12px;
+}
+
+
+ul#menu-principal li:nth-child(1) a:hover,ul#menu-principal li:nth-child(1) a:active{
+	padding: 10px 12px;
+	background-image: url(library/img/hover-menu.png);
+	background-repeat: no-repeat;
+	color: #2d0d0c;
+}
+ul#menu-principal li:nth-child(1) a:focus, ul#menu-principal li:nth-child(1) a:active{
+	padding: 10px 11px;
+	background-image: url(library/img/hover-menu.png);
+	background-repeat: no-repeat;
+	color: #2d0d0c;
+	font-weight: 700;
+}
+
+ul#menu-principal li:nth-child(4) a:hover{
+	padding: 10px 12px;
+	background-image: url(library/img/hover-menu-contact.png);
+	background-repeat: no-repeat;
+	color: #2d0d0c;
+	
+}
+ul#menu-principal li:nth-child(4) a:focus{
+	padding: 10px 11px;
+	background-image: url(library/img/hover-menu-contact.png);
+	background-repeat: no-repeat;
+	color: #2d0d0c;
+	font-weight: 700;
+}
+
+ul#menu-principal li:nth-child(2) a:hover, ul#menu-principal li:nth-child(3) a:hover{
+	padding: 10px 12px;
+	background-color: #e3b05b;
+	color: #2d0d0c;
+}
+ul#menu-principal li:nth-child(2) a:focus, ul#menu-principal li:nth-child(3) a:focus{
+	padding: 10px 11px;
+	background-color: #e3b05b;
+	color: #2d0d0c;
+	font-weight: bold;
+}
+
+#mision{
+	max-width: 781px;
+	background-image: url(library/img/tab-mision.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 198px;
+	margin: 0 auto;
+	margin-top: -50px;
+	color: #ffffff;
+}
+#caja-mision{
+
+	max-width: 400px;
+	padding: 0px 0px 20px 40px;
+}
+#caja-mision h2{
+	font-size: 18px;
+	line-height: 0.5em;
+}
+#caja-mision p{
+	font-size: 0.8em;
+	line-height: 1.3em;
+	margin-left: 20px;
+	letter-spacing: 0.5px;
+}
+.servicios{
+	text-align: center;
+	padding: 40px 0px;
+}
+.servicios h2, .clientes h2{
+	color: #300c00;
+	font-size: 19px;
+	font-weight: 700;
+	letter-spacing: 0.2px;
+	margin-bottom: 5px;
+}
+.servicios h3{
+	color: #555555;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+.servicios p{
+	color: #555555;
+	font-size: 12px;
+	text-align: justify;
+	line-height: 16px;
+}
+.servicios img{
+	margin-bottom: 10px;
+}
+.line-yellow{
+	background-image:  url(library/img/line-yellow.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	max-width: 619px;
+	height: 12px;
+}
+.slogan{
+	background-color: #2d0d0c;
+	text-align: center;
+	padding: 30px 0px 20px 0px;
+}
+.slogan h3{
+	font-weight: normal;
+	max-width: 800px;
+	margin: 0 auto;
+	color: #ffffff;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.clientes{
+	text-align: center;
+	padding: 40px 0px;
+	color: #8f8f8f;
+}
+.clientes p{
+	max-width: 800px;
+	margin: 40px auto;
+}
+ul.list-clientes li{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 15px;
+	margin: 0 10px;
+
+}
+ul.list-clientes li, ul.list-clientes li img{
+	vertical-align: middle;
+}
+ul.logos-clientes li{
+	margin: 15px 20px;
+	display: inline-block;
+	list-style: none;
+}
+.contactenos{
+	background: #451C1A url(library/img/bn-contacto.png);
+	height: auto;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: #ffffff;
+	text-align: center;
+	padding: 50px 0px 20px 0px;
+	background-position: center;
+}
+
+.contactenos h2{
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.contactenos p{
+	font-size: 18px;
+	margin-bottom: 0px;
+}
+.contactenos a{
+	text-decoration: none;
+	color: #ffffff;
+}
+.contactenos a:hover{
+	color: #e8bf79;
+}
+.bg-copy{
+	background-color: #1f0000;
+	text-align: center;
+	color: #ffffff;
+	font-size: 0.8em;
+	padding-top: 20px;
+}
+.bg-copy p{
+	margin-bottom: 10px;
+}
+.bg-copy p, .bg-copy img{
+	vertical-align: middle;
+}
+.bg-copy a{
+	text-decoration: none;
+	color: #e8e7e7;
+}
+.page{
+	margin: 60px 0px;
+	color: #646464;
+}
+.page h3{
+	border-bottom: 4px solid #e3b05b;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+}
+.page p{
+	line-height: 20px;
+	text-align: justify;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+.text-page strong{
+	float: right;
+	font-size: 14px;
+}
+.text-page{
+	margin-top: 70px;
+}
+.portafolio{
+	margin-top: 30px;
+}
+.contacto{
+	max-width: 600px;
+	margin: 0 auto;
+}
+.contacto label{
+	color: #300c0a;
+	font-weight: normal;
+}
+.c1, .c2{
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+}
+.mensaje-banner{
+	margin-top: 100px;
+	background: url(library/img/sombra.png);
+	background-repeat: no-repeat;
+	float: right;
+	color: #ffffff;
+	height: 195px;
+	width: 712px;
+}
+.width-sombra{
+	padding-top: 30px;
+	max-width: 100%;
+}
+.width-sombra p{
+	line-height: 25px;
+	font-size: 18px;
+	text-align: right;
+	margin-right: 100px;
+	letter-spacing: 2px;
+	font-style: normal;
+	max-width: 100%;
+
+}
+.width-sombra p strong{
+	font-weight: bold;
+	font-size: 25px;
+}
+.width-sombra p span{
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 300;
+}
+.pws_tabs_slide_right_hide.pws_tab_single.pws_tabs_slide_right_show{
+	padding-top: 20px;
+}
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+	#mainbanner{
+		background-size: auto 100%;
+	}
+	#mision{
+		background-size: auto 100%;
+	}
+	.contactenos{
+		background-size: auto 100%;
+	}
+	
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
