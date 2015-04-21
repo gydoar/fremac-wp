@@ -99,14 +99,129 @@ function optionsframework_options() {
 	);
 
 	$options[] = array(
-		'name' => __( 'Example', 'theme-textdomain' ),
-		'desc' => __( 'A mini text input field.', 'theme-textdomain' ),
-		'id' => 'example',
-		'std' => 'Default',
-		'class' => 'mini',
+		'name' => __( 'Texto Misión', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'mision',
+		'std' => 'Ofrecer óptimas soluciones integrales al mejor beneficio/costo en el suministro de servicios que cumplan con estándares de calidad y garantía, apoyados en la experiencia y compromiso del recurso humano y una adecuada gestión de servicio al cliente.',
+		'type' => 'textarea'
+	);
+
+	$options[] = array(
+		'name' => __( 'Texto Visión', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'vision',
+		'std' => 'Ser socios estratégicos en la cadena de valor de la industria como proveedores eficientes, efectivos y confiables.',
+		'type' => 'textarea'
+	);
+
+	$options[] = array(
+		'name' => __( 'Servicio 1', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'servicio_1_title',
+		'std' => 'SERVICIO EFICIENTE',
 		'type' => 'text'
 	);
 
+	$options[] = array(
+		'name' => __( 'Imagen Servicio 1', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'servicio_1_img',
+		'std' => '',
+		'type' => 'upload'
+	);
+
+	$options[] = array(
+		'name' => __( 'Texto Servicio 1', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'servicio_1_text',
+		'std' => 'Basados en nuestra experiencia, bases de datos y ficha técnica de nuestros fabricantes locales y extranjeros, homologamos la información obtenida del cliente y proponemos soluciones oportunas o el remplazo de la parte o pieza original requerida. 
+			<br><br>
+			No se trata solo de hacer, sino que funcione correctamente, observando los parámetros de fábrica y requisitos del cliente, haciéndolo práctico y efectivo. No se improvisa.',
+		'type' => 'textarea'
+	);
+/* Servicio 2 */
 	
+	$options[] = array(
+		'name' => __( 'Servicio 2', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'servicio_2_title',
+		'std' => 'SERVICIO EFECTIVO',
+		'type' => 'text'
+	);
+
+	$options[] = array(
+		'name' => __( 'Imagen Servicio 2', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'servicio_2_img',
+		'std' => '',
+		'type' => 'upload'
+	);
+
+	$options[] = array(
+		'name' => __( 'Texto Servicio 2', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'servicio_2_text',
+		'std' => 'Nos referimos a la oportunidad en tiempo, lugar y la capacidad de producir el efecto deseado con nuestra propuesta. 
+            <br><br>
+            Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.',
+		'type' => 'textarea'
+	);
+
+	/* Servicio 3 */
+	
+	$options[] = array(
+		'name' => __( 'Servicio 3', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'servicio_3_title',
+		'std' => 'SERVICIO CONFIABLE',
+		'type' => 'text'
+	);
+
+	$options[] = array(
+		'name' => __( 'Imagen Servicio 3', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'servicio_3_img',
+		'std' => '',
+		'type' => 'upload'
+	);
+
+	$options[] = array(
+		'name' => __( 'Texto Servicio 3', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'servicio_3_text',
+		'std' => 'Confiamos en la seriedad de los clientes así como esperamos que los clientes confíen en nuestra seriedad, fundamentados en nuestros principios y valores como honestidad, cumplimiento, comunicación, innovación.
+             <br><br>
+             Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.',
+		'type' => 'textarea'
+	);
+
+	$options[] = array(
+		'name' => __( 'CONTACTO', 'theme-textdomain' ),
+		'type' => 'heading'
+	);
+
+	$options[] = array(
+		'name' => __( 'Direccion de contacto', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'dir_cont',
+		'std' => 'Carrera 80 B No. 56 - 65 sur Bogotá - Colombia',
+		'type' => 'text'
+	);
+	
+	$options[] = array(
+		'name' => __( 'Email de contacto', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'email_cont',
+		'std' => 'administracion@fremacsoluciones.com',
+		'type' => 'text'
+	);
+
+		$options[] = array(
+		'name' => __( 'PBX de contacto', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'pbx_cont',
+		'std' => '4884885',
+		'type' => 'text'
+	);
 	return $options;
 }

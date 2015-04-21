@@ -3,9 +3,9 @@
         
         <div class="container">
           <h2>CONTACTENOS</h2>
-          <p>Carrera 80 B No. 56 - 65 sur Bogotá - Colombia</p>
-          <a href="mailto:administracion@fremacsoluciones.com">administracion@fremacsoluciones.com</a>
-          <p>PBX: 4884885</p>
+          <p><?php echo of_get_option('dir_cont'); ?></p>
+          <a href="mailto:<?php echo of_get_option('email_cont'); ?>"><?php echo of_get_option('email_cont'); ?></a>
+          <p>PBX: <?php echo of_get_option('pbx_cont'); ?></p>
         </div>
 
       </footer>

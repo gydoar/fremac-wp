@@ -37,12 +37,12 @@
              <div data-pws-tab="tab1" data-pws-tab-name="<img src='<?php bloginfo('template_url' ); ?>/library/img/line-tab.png' alt=''>">
                <h2>MISIÓN</h2>
 
-               <p>Ofrecer óptimas soluciones integrales al mejor beneficio/costo en el suministro de servicios que cumplan con estándares de calidad y garantía, apoyados en la experiencia y compromiso del recurso humano y una adecuada gestión de servicio al cliente.</p>
+               <p><?php echo of_get_option('mision'); ?></p>
             </div>
             <div data-pws-tab="tab2" data-pws-tab-name="<img src='<?php bloginfo('template_url' ); ?>/library/img/line-tab.png' alt=''>">
               <h2>VISIÓN</h2>
 
-               <p>Ser socios estratégicos en la cadena de valor de la industria como proveedores eficientes, efectivos y confiables. <br><br><br></p>
+               <p><?php echo of_get_option('vision'); ?> <br><br><br></p>
             </div>
           </div>
           
@@ -63,36 +63,27 @@
       <section class="servicios container">
         
          <div class="four columns">
-           <h3>SERVICIO EFICIENTE</h3>
+           <h3><?php echo of_get_option('servicio_1_title'); ?></h3>
 
-           <img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/servicio-eficiente.jpg" alt="">
+           <img class="twelve columns" src="<?php echo of_get_option('servicio_1_img'); ?>" alt="">
 
-           <p>Basados en nuestra experiencia, bases de datos y ficha técnica de nuestros fabricantes locales y extranjeros, homologamos la información obtenida del cliente y proponemos soluciones oportunas o el remplazo de la parte o pieza original requerida.
-            <br><br>
-           No se trata solo de hacer, sino que funcione correctamente, observando los parámetros de fábrica y requisitos del cliente, haciéndolo práctico y efectivo. No se improvisa.</p>
+           <p><?php echo of_get_option('servicio_1_text'); ?></p>
          </div>
 
          <div class="four columns">
-           <h3>SERVICIO EFECTIVO</h3>
+           <h3><?php echo of_get_option('servicio_2_title'); ?></h3>
 
-           <img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/servicio-efectivo.png" alt="">
+           <img class="twelve columns" src="<?php echo of_get_option('servicio_2_img'); ?>" alt="">
 
-           <p>Nos referimos a la oportunidad en tiempo, lugar y la capacidad de producir el efecto deseado con nuestra propuesta. 
-            <br><br>
-            Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.
-            </p>
+           <p><?php echo of_get_option('servicio_2_text'); ?></p>
          </div>
 
          <div class="four columns">
-           <h3>SERVICIO CONFIABLE</h3>
+           <h3><?php echo of_get_option('servicio_3_title'); ?></h3>
 
-           <img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/servicio-confiable.png" alt="">
+           <img class="twelve columns" src="<?php echo of_get_option('servicio_3_img'); ?>" alt="">
 
-           <p>
-             Confiamos en la seriedad de los clientes así como esperamos que los clientes confíen en nuestra seriedad, fundamentados en nuestros principios y valores como honestidad, cumplimiento, comunicación, innovación.
-             <br><br>
-             Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor. 
-           </p>
+           <p><?php echo of_get_option('servicio_3_text'); ?></p>
          </div>
       </section>
       
