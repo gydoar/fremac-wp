@@ -25,21 +25,10 @@
 
         <div class="container portafolio">
           <div class="six columns">
-            <img class="twelve columns" src="<?php bloginfo('template_url' ); ?>/library/img/portafolio.png" alt="">
+            <img class="twelve columns" src="<?php echo of_get_option('img_portfolio'); ?>" alt="">
           </div>
           <div class="six columns">
-            <p>Formamos parte de la cadena de distribución de importantes industrias a nivel nacional e Internacional, lo cual garantiza el servicio y calidad de nuestros suministros.</p>
-
-            <p>Nuestras soluciones están orientadas al servicio de mantenimiento y reparación, suministro de recambios, reparaciones, mejoras y/o adaptaciones de piezas, partes y accesorios con procesos de inyección, fibra, pintura, vulcanizado, mecanizado, ensamble y metalmecánica para todo tipo de máquinas, equipos industriales, de transporte y líneas de producción.</p>
-
-            <p>Participamos activamente en campañas de mantenimiento preventivo y suministro de stock de repuestos; atendemos emergencias de mantenimiento correctivo, reparaciones y desarrollo de soluciones.</p>
-            
-            <p>Servicio de asesoría y capacitación práctica para programas de mantenimiento preventivo y correctivo de carrocería y plataformas, equipos e instrumentos.
-            </p>
-
-            <strong>ASISTENCIA PARA FALLAS Y VARADAS 24 HORAS</strong>
-            
-            <p>Servicio outsurcing de mantenimiento, reparación y proveeduría a la medida de sus necesidades… </p>
+            <p><?php echo of_get_option('text_portfolio'); ?></p>
           </div>
         </div>
 

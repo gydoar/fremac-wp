@@ -195,6 +195,84 @@ function optionsframework_options() {
 		'type' => 'textarea'
 	);
 
+	/* Seccion Nuestra Porpuesta */
+	$options[] = array(
+		'name' => __( 'NUESTRA PROPUESTA', 'theme-textdomain' ),
+		'type' => 'heading'
+	);
+
+	$options[] = array(
+		'name' => __( 'Img Nuestra Propuesta', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'img_1_propuesta',
+		'std' => '',
+		'type' => 'upload'
+	);
+
+	$options[] = array(
+		'name' => __( 'Text Nuestra Propuesta', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'text_1_propuesta',
+		'std' => 'FREMAC Soluciones industriales, nace de la oportunidad que ofrece el sector de transporte de pasajeros con relación al mantenimiento de sus flotas de vehículos, dejando en manos de terceros aquellas funciones que no forman parte crítica de aquello que le da valor, que dispongan de la experiencia, infraestructura y tecnología que puede suponer una reducción de costos significativa para sus empresas.
+			<br><br>
+            omos una compañía Outsoucing que presta los servicios de mantenimiento preventivo correctivo, reparación y suministro de partes, piezas y repuestos para todo tipo de carrocerías y plataformas.
+			<br><br>
+            Nuestro compromiso está enmarcado en una visión y misión alineadas con el direccionamiento estratégico de nuestros clientes actuales y futuros, lo cual nos permite ofrecer un servicio Eficiente, Efectivo y Confiable.',
+		'type' => 'textarea'
+	);
+	
+	$options[] = array(
+		'name' => __( 'Img Nuestra Declaracion', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'img_1_declaracion',
+		'std' => '',
+		'type' => 'upload'
+	);
+
+	$options[] = array(
+		'name' => __( 'Text Nuestra Declaracion', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'text_1_declaracion',
+		'std' => 'Todos los ámbitos de la empresa moderna, necesitan contar con servicios y tecnologías de punta. Es importante que el personal de la compañía esté centrado en su negocio, dejando en manos de terceros aquellas funciones, que no forman parte crítica de la cadena de valor.
+            <br><br>
+            Disponer de esos avances puede suponer una reducción de costos. En virtud de esta oportunidad, declaramos que somos un Servicio Outsurcing de mantenimiento, reparación y suministros eficientes, efectivos y confiables, porque realmente somos un proveedor que sabemos lo que hacemos.',
+		'type' => 'textarea'
+	);
+
+	/* Seccion portfolio */
+	$options[] = array(
+		'name' => __( 'PAGINA PORTFOLIO', 'theme-textdomain' ),
+		'type' => 'heading'
+	);
+
+	$options[] = array(
+		'name' => __( 'Text Portfolio', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'text_portfolio',
+		'std' => 'Formamos parte de la cadena de distribución de importantes industrias a nivel nacional e Internacional, lo cual garantiza el servicio y calidad de nuestros suministros.
+			<br><br>
+            Nuestras soluciones están orientadas al servicio de mantenimiento y reparación, suministro de recambios, reparaciones, mejoras y/o adaptaciones de piezas, partes y accesorios con procesos de inyección, fibra, pintura, vulcanizado, mecanizado, ensamble y metalmecánica para todo tipo de máquinas, equipos industriales, de transporte y líneas de producción.
+			<br><br>
+            Participamos activamente en campañas de mantenimiento preventivo y suministro de stock de repuestos; atendemos emergencias de mantenimiento correctivo, reparaciones y desarrollo de soluciones.
+            <br><br>
+            Servicio de asesoría y capacitación práctica para programas de mantenimiento preventivo y correctivo de carrocería y plataformas, equipos e instrumentos.
+			<br><br>
+            <strong>ASISTENCIA PARA FALLAS Y VARADAS 24 HORAS</strong>
+            
+            Servicio outsurcing de mantenimiento, reparación y proveeduría a la medida de sus necesidades…',
+		'type' => 'textarea'
+	);
+
+	$options[] = array(
+		'name' => __( 'Img Portfolio', 'theme-textdomain' ),
+		'desc' => __( '', 'theme-textdomain' ),
+		'id' => 'img_portfolio',
+		'std' => '',
+		'type' => 'upload'
+	);
+
+	/* Seccion contacto */
+
 	$options[] = array(
 		'name' => __( 'CONTACTO', 'theme-textdomain' ),
 		'type' => 'heading'
